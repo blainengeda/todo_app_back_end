@@ -45,7 +45,7 @@ li{
   padding: 5px;
   margin-bottom:10px;
 }
-body{background-color:rgb(187,159,225)}
+
  h1{color:white;
  font-size: 50px;
  }
@@ -53,4 +53,18 @@ body{background-color:rgb(187,159,225)}
  
 .completed-todo{
   text-decoration: line-through;
+}
+
+body {
+  background: 
+      radial-gradient(circle at 50% 0,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        rgba(0,0,255,.5),
+        rgba(0,0,255,0) 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(0,255,0,.5),
+        rgba(0,255,0,0) 70.71%) beige;
+  border-radius: 50%;
 }
